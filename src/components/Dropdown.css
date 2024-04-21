@@ -1,0 +1,10 @@
+/* src/components/Dropdown.css */
+.dropdown {
+    display: inline-block;
+    margin-left: 10px; /* Add some margin for spacing */
+  }
+  
+  .dropdown select {
+    padding: 5px; /* Adjust padding as needed */
+  }
+  

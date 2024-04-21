@@ -1,0 +1,43 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    position: fixed;
+    top: 60px;
+    left: -300px;
+    width: 300px;
+    height: calc(100vh - 60px);
+    background-color: white; /* Change background color to white */
+    color: black; /* Change text color to black */
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sidebar.open {
+    transform: translateX(300px);
+  }
+  
+  .toggle-button {
+    margin-bottom: 20px;
+  }
+  
+  .options {
+    margin-top: 20px;
+  }
+  
+  .options h3 {
+    margin-top: 0;
+  }
+  
+  .options label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  

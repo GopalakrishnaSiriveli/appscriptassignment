@@ -1,0 +1,46 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end; /* Align sections side by side */
+    align-items: center; /* Center vertically */
+    
+    width: 100%; /* Take up full width */
+  }
+  
+  .footer section {
+    flex: 1; /* Equal width for all sections */
+  }
+  
+  .subscription-form input[type="email"] {
+    width: 100%; /* Take up full width */
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .subscription-form button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+  }
+  
